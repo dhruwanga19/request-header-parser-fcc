@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request Header Parser Microservice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #333;
+        }
+        code {
+            background-color: #f4f4f4;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Request Header Parser Microservice</h1>
+    <p>This microservice provides information about the client making the request.</p>
+    
+    <h2>Usage</h2>
+    <p>Make a GET request to <code>/api/whoami</code></p>
+    
+    <h2>Example Output:</h2>
+    <pre><code>
+{
+  "ipaddress": "159.20.14.100",
+  "language": "en-US,en;q=0.5",
+  "software": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0"
+}
+    </code></pre>
+    
+    <h2>Live Demo</h2>
+    <p>Try it now: <a href="/api/whoami">/api/whoami</a></p>
+</body>
+</html>

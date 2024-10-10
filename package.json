@@ -1,0 +1,31 @@
+{
+  "name": "request-header-parser-fcc",
+  "version": "1.0.0",
+  "description": "A request header parser microservice for FCC backend challenge",
+  "main": "index.js",
+  "scripts": {
+    "build": "netlify-lambda build netlify/functions",
+    "start": "netlify-lambda serve netlify/functions"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhruwanga19/request-header-parser-fcc.git"
+  },
+  "keywords": [
+    "Node",
+    "Express",
+    "Backend",
+    "FCC"
+  ],
+  "author": "Dhruwang Akbari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhruwanga19/request-header-parser-fcc/issues"
+  },
+  "homepage": "https://github.com/dhruwanga19/request-header-parser-fcc#readme",
+  "dependencies": {
+    "express": "^4.21.1",
+    "netlify-lambda": "^2.0.16",
+    "serverless-http": "^3.2.0"
+  }
+}
